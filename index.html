@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1920's Movie Style</title>
+    <style>
+        body {
+            background-color: #1c1c1c; /* Dark background */
+            color: #000; /* Black text */
+            font-family: 'Courier New', Courier, monospace; /* Vintage typewriter style */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, p {
+            color: #000; /* Black text */
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #333; /* Dark gray sidebar */
+            padding: 20px;
+            height: 100vh;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+            color: #fff; /* White text in sidebar */
+        }
+
+        .sidebar a {
+            display: block;
+            margin: 10px 0;
+            color: #fff; /* Sidebar links in white */
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>Menu</h3>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+            <a href="slideshow.html">Slide Show</a> <!-- Link to separate slideshow page -->
+            <a href="#funfacts">Fun Facts</a>
+        </div>
+
+        <!-- Main content -->
+        <div class="content">
+            <h1>Welcome to 1920's Movie Style</h1>
+            <p>Explore the crazy sayings and stories of the 1920s movie era!</p>
+
+            <!-- About Us section -->
+            <section id="about">
+                <h2>About Us</h2>
+                <p>We are here to bring you a glimpse of the roaring 20s, when the silent film era gave birth to a new wave of creativity, style, and expression in cinema.</p>
+            </section>
+
+            <!-- Contact Us section -->
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Have any questions? Feel free to reach us at <strong>adam.jukedya@gmail.com</strong>.</p>
+            </section>
+
+            <!-- Fun Facts section -->
+            <section id="funfacts">
+                <h2>Fun Facts</h2>
+                <p>Did you know? The first ever Oscar awards were held in 1929, right at the end of the 1920s.</p>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>By, Mada Utgest</p>
+    </footer>
+</body>
+</html>
